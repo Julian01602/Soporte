@@ -1,4 +1,4 @@
-# 🌲 SOPORT
+# 🌲 SOPORTE
 > **Sistema Automatizado de Soportes - SENA**
 
 ![Framework](https://img.shields.io/badge/FRONTEND-REACT-009944?style=for-the-badge&logo=react&logoColor=009944&labelColor=000000)
