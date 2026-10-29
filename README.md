@@ -1,7 +1,6 @@
 # 🌲 SOPORT
 > **Sistema Automatizado de Soportes - SENA**
 
-![Status](https://img.shields.io/badge/STATUS-ACTIVE-009944?style=for-the-badge&labelColor=000000)
 ![Framework](https://img.shields.io/badge/FRONTEND-REACT-009944?style=for-the-badge&logo=react&logoColor=009944&labelColor=000000)
 ![Backend](https://img.shields.io/badge/BACKEND-SUPABASE-009944?style=for-the-badge&logo=supabase&logoColor=009944&labelColor=000000)
 
