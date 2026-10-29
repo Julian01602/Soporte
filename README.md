@@ -1,64 +1,51 @@
-# 🛠️ Sistema Automatizado de Soportes - SENA
+<div align="center">
+# ⚡ SOPORT ⚡
+  ### *Sistema Automatizado de Soportes - SENA*
 
-Aplicación web desarrollada para la gestión, registro y seguimiento automatizado de tickets y soportes técnicos del SENA.
+  ![Status](https://img.shields.io/badge/STATUS-ACTIVE-00FF66?style=for-the-badge&labelColor=000000)
+  ![Framework](https://img.shields.io/badge/FRONTEND-REACT-00FF66?style=for-the-badge&logo=react&logoColor=00FF66&labelColor=000000)
+  ![Backend](https://img.shields.io/badge/BACKEND-SUPABASE-00FF66?style=for-the-badge&logo=supabase&logoColor=00FF66&labelColor=000000)
+  ![Styling](https://img.shields.io/badge/STYLE-BLACK%20%26%20GREEN-00FF66?style=for-the-badge&labelColor=000000)
 
----
-
-## 🚀 Tecnologías Utilizadas
-
-* **Frontend:** [React](https://react.dev/) + [Vite / Create React App]
-* **Backend & Base de Datos:** [Supabase](https://supabase.com/) (PostgreSQL, Autenticación y Storage)
-* **Estilos:** [CSS Modules / Tailwind CSS / Bootstrap]
-* **Control de Versiones:** Git & GitHub
-
----
-
-## 📋 Características Principales
-
-* 📝 **Registro Automatizado de Soportes:** Formulario dinámico para la creación de solicitudes o tickets.
-* ⚡ **Actualizaciones en Tiempo Real:** Seguimiento instantáneo del estado de cada soporte mediante las suscripciones en tiempo real de Supabase.
-* 🔐 **Autenticación y Roles:** Control de acceso seguro para usuarios y administradores/soporte.
-* 🗃️ **Persistencia de Datos:** Gestión estructurada de registros mediante PostgreSQL en Supabase.
+  <p align="center">
+    <b>Plataforma de alta eficiencia para la automatización, gestión y seguimiento de tickets de soporte técnico.</b>
+  </p>
 
 ---
 
-## ⚙️ Instalación y Configuración Local
+</div>
 
-Sigue estos pasos para clonar y ejecutar el proyecto localmente:
+## 🟢 ¿Qué es Soport?
 
-### 1. Clonar el repositorio
-\`\`\`bash
-git clone https://github.com/Julian01602/Soporte.git
-cd Soporte
-\`\`\`
-
-### 2. Instalar dependencias
-\`\`\`bash
-npm install
-\`\`\`
-
-### 3. Configurar variables de entorno
-Crea un archivo `.env.local` en la raíz del proyecto y agrega tus credenciales de Supabase:
-
-\`\`\`env
-VITE_SUPABASE_URL=tu_url_de_supabase
-VITE_SUPABASE_ANON_KEY=tu_llave_anonima_de_supabase
-\`\`\`
-
-### 4. Iniciar el servidor de desarrollo
-\`\`\`bash
-npm run dev
-\`\`\`
+**Soport** es un ecosistema enfocado en la automatización de requerimientos, soporte técnico y PQRS del **SENA**. Centraliza la atención de usuarios en una interfaz rápida, oscura y optimizada, impulsada por un backend en tiempo real.
 
 ---
 
-## 📂 Estructura de la Base de Datos (Supabase)
+## ⚡ Stack Tecnológico
 
-El proyecto utiliza tablas en PostgreSQL administradas desde Supabase:
-* `soportes`: Registro de tickets (id, usuario, título, descripción, estado, fecha_creación).
-* `usuarios`: Datos de perfil y roles vinculados a `auth.users`.
+| Módulo | Tecnología | Descripción |
+| :--- | :--- | :--- |
+| **Frontend** | ![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=00FF66) | Interfaz dinámica, ágil y reactiva |
+| **Backend & DB** | ![Supabase](https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=00FF66) | PostgreSQL, Auth y Realtime Subscriptions |
+| **Tooling** | ![Vite](https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=00FF66) | Build tool ultra rápido |
+| **Control de Versiones** | ![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=00FF66) | Gestión de repositorio y versiones |
 
 ---
 
-## ✒️ Autor
-* **Julian**[cite: 1] - *Desarrollo e Implementación*
+## 🟩 Módulos y Funcionalidades
+
+- [x] 🤖 **Auto-Tickets:** Generación e ingesta automatizada de solicitudes.
+- [x] ⚡ **Realtime Engine:** Notificaciones e historial de cambios actualizados al instante mediante Supabase WebSockets.
+- [x] 🔐 **Auth & Security:** Roles granulares (Aprendiz, Instructor, Administrador de Soporte).
+- [x] 📊 **Panel de Control Dark Mode:** Vista limpia en tonalidades oscuras con acentos verde fosforescente.
+
+---
+
+## 🛠️ Instalación Rápida
+
+Sigue este flujo para levantar el entorno de desarrollo local:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/Julian01602/Soport.git](https://github.com/Julian01602/Soport.git)
+   cd Soport
