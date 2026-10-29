@@ -1,6 +1,6 @@
 <div align="center">
 # 🌲 SOPORT 🌲
-  ### *Sistema Automatizado de Soportes - SENA*
+  *Sistema Automatizado de Soportes - SENA*
   </div>
 
 ## 🌲 ¿Qué es Soport?
