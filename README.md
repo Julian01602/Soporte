@@ -1,4 +1,4 @@
-# 🌲 SOPORT
+# 🌲 SOPORTE
 > **Sistema Automatizado de Soportes - SENA**
 
 ![Framework](https://img.shields.io/badge/FRONTEND-REACT-009944?style=for-the-badge&logo=react&logoColor=009944&labelColor=000000)
@@ -18,7 +18,6 @@
 | :--- | :--- | :--- |
 | **Frontend** | ![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=009944) | Interfaz moderna, rápida y reactiva |
 | **Backend & DB** | ![Supabase](https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=009944) | Base de datos PostgreSQL y motor de autenticación |
-| **Tooling** | ![Vite](https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=009944) | Entorno de desarrollo ultra rápido |
 | **Control de Versiones** | ![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=009944) | Control de cambios y repositorio |
 
 ---
